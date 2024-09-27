@@ -25,6 +25,7 @@ import android from '../assets/images/android.png'
 import ios from '../assets/images/ios.png'
 import web from '../assets/images/www.png'
 import windows from '../assets/images/windows.png'
+import './Home.css'
 
 function Home() {
     return (
@@ -67,25 +68,25 @@ function Home() {
             </section>
 
             {/* technologies */}
-            <section  id='technologies' style={{ backgroundColor: '#76A6E6',minHeight: '100vh' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
-                <div className="container">
-                    <div className="row d-flex align-items-center justify-content-center ">
-                        <div className="col-lg-3">
-                            <h2 className='fw-bolder text-white text-center mb-3'>
-                                Technologies
-                                <br />
-                                <span className='text-white fs-3'> we work with</span>
-                            </h2>
-                        </div>
-                        <div className="col-lg-2"></div>
-                        <div className="col-lg-7 ">
-                            <div style={{ minHeight: "auto" }} className="bg-light w-100 rounded-4 py-5">
-                                <div className="row d-flex flex-column gap-5 align-items-center justify-content-center w-100">
-                                    <div className='d-flex align-items-center justify-content-around w-100 '>
-                                        <img style={{ width: '102px', height: '30px' }} src={flutter} alt="flutter" className="img-fluid tech-images" />
-                                        <img style={{ width: '102px', height: '30px' }} src={mongoDb} alt="mongoDb" className="img-fluid tech-images" />
-                                        <img style={{ width: '102px', height: '32px' }} src={nodejs} alt="nodejs" className="img-fluid tech-images" />
-                                        <img style={{ width: '70px', height: '30px' }} src={aws} alt="aws" className="img-fluid tech-images pt-2" />
+            <section style={{ backgroundColor: '#76A6E6', minHeight: '100vh' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
+            <div className="container">
+                <div className="row d-flex align-items-center justify-content-center ">
+                    <div className="col-lg-3">
+                        <h2 className='fw-bolder text-white text-center mb-3'>
+                            Technologies
+                            <br />
+                            <span className='text-white fs-3'> we work with</span>
+                        </h2>
+                    </div>
+                    <div className="col-lg-2"></div>
+                    <div className="col-lg-7">
+                        <div style={{ minHeight: "auto" }} className="bg-light w-100 rounded-4 py-4">
+                            <div className="row d-flex flex-column gap-3 align-items-center justify-content-center w-100">
+                            <div className='d-flex align-items-center justify-content-around w-100 '>
+                                        <img  src={flutter} alt="flutter" className="img-fluid tech-images" />
+                                        <img  src={mongoDb} alt="mongoDb" className="img-fluid tech-images" />
+                                        <img  src={nodejs} alt="nodejs" className="img-fluid tech-images" />
+                                        <img  src={aws} alt="aws" className="img-fluid tech-images pt-2" />
                                     </div>
                                     <div className='d-flex align-items-center justify-content-around w-100 '>
                                         <img src={googlecloud} alt="googlecloud" className="img-fluid tech-images" />
@@ -98,19 +99,16 @@ function Home() {
                                         <img src={docker} alt="docker" className="img-fluid  tech-images" />
                                         <div className='d-flex flex-column align-items-center justify-content-center gap-1'>
                                             <img src={app} alt="app" className="img-fluid  tech-images" />
-                                            <img src={apstore} alt="appstore" className="img-fluid  tech-images" />
+                                            <img src={apstore} style={{ width: '90px', height: '10px' }} alt="appstore" className="img-fluid  tech-images" />
                                         </div>
                                         <img src={googleplay} alt="googleplay" className="img-fluid  tech-images " />
                                     </div>
-                                </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
-
-            </section>
+            </div>
+        </section>
 
             <section style={{paddingBottom: '100px'}}  className='w-100  pb-lg-0 d-flex align-items-center justify-content-center'>
                 <div className="container py-5">

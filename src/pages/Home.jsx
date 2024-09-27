@@ -68,8 +68,8 @@ function Home() {
             </section>
 
             {/* technologies */}
-            <section style={{ backgroundColor: '#76A6E6', minHeight: '100vh' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
-            <div className="container">
+            <section  style={{ backgroundColor: '#76A6E6' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
+            <div className="container py-lg-5">
                 <div className="row d-flex align-items-center justify-content-center ">
                     <div className="col-lg-3">
                         <h2 className='fw-bolder text-white text-center mb-3'>

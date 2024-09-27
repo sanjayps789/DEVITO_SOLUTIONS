@@ -2,12 +2,7 @@
     margin: 10px;
 }
 
-@media (min-width: 992px) {
-    /* Large screens (4 images per row) */
-    .tech-images {
-        width: 20%;
-    }
-}
+
 
 @media (max-width: 991px) and (min-width: 576px) {
     /* Medium screens (3 images per row) */

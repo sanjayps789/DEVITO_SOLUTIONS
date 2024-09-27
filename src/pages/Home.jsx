@@ -21,10 +21,14 @@ import mongoDb from '../assets/images/mongoDb.png'
 import nodejs from '../assets/images/nodejs.png'
 import react from '../assets/images/react.png'
 import app from '../assets/images/image 11.png'
+import android from '../assets/images/android.png'
+import ios from '../assets/images/ios.png'
+import web from '../assets/images/www.png'
+import windows from '../assets/images/windows.png'
 
 function Home() {
     return (
-        <>
+        <div className='w-100 pb-lg-0 pb-5'>
             <Header />
             <section style={{ height: '80vh' }} className='w-100  d-flex align-items-center justify-content-center bg-light'>
                 <div className="container">
@@ -63,7 +67,7 @@ function Home() {
             </section>
 
             {/* technologies */}
-            <section style={{ backgroundColor: '#76A6E6',minHeight: '100vh' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
+            <section  id='technologies' style={{ backgroundColor: '#76A6E6',minHeight: '100vh' }} className='w-100 d-flex align-items-center justify-content-center py-5'>
                 <div className="container">
                     <div className="row d-flex align-items-center justify-content-center ">
                         <div className="col-lg-3">
@@ -108,8 +112,34 @@ function Home() {
 
             </section>
 
-            
-        </>
+            <section style={{paddingBottom: '100px'}}  className='w-100  pb-lg-0 d-flex align-items-center justify-content-center'>
+                <div className="container py-5">
+                    <div style={{ borderColor: "#A3A3A3" }} className="row d-flex  border-bottom py-lg-5 py-3">
+                        <div className="col-lg-3">
+                            <h1 className='text-black fw-bold text-lg-start text-center '>We are a small <br  className='d-none d-lg-block'/>
+                             team doing <br className='d-none d-lg-block' />
+                                 <span style={{ color: '#25C20A' }}>cool stuff</span>.</h1>
+                        </div>
+                        <div className="col-lg-1"></div>
+                        <div className="col-lg-8 ">
+                            <div className="d-flex align-items-center justify-content-center flex-column w-100">
+                                <h6 className='py-lg-0 py-2'>We build applications for:</h6>
+                                <div className="d-flex align-items-center justify-content-around w-100 py-3">
+                                    <img src={android} alt="android" className="img-fluid" />
+                                    <img src={ios} alt="ios" className="img-fluid" />
+                                    <img src={web} alt="web" className="img-fluid" />
+                                    <img src={windows} alt="windows" className="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row d-flex align-items-center justify-content-center flex-column pb-5 pt-4">
+                            <h2 className='text-center text-black fw-bold pt-4 pb-3'>Let us know what your want!</h2>
+                           <div className='text-center pb-lg-0 pb-5'> <button style={{ backgroundColor: '#76A6E6', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} className='btn text-white fw-bolder px-5 py-2 rounded-pill'>Contact us!</button></div>
+                        </div>
+                </div>
+            </section>
+        </div>
     )
 }
 

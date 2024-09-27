@@ -14,7 +14,7 @@ function Header() {
 
           <Nav className="ms-auto  d-lg-flex d-none">
             <Nav.Link className='text-white' href="#home">Projects</Nav.Link>
-            <Nav.Link className='text-white' href="#link">Technology</Nav.Link>
+            <Nav.Link className='text-white' href="#technology">Technology</Nav.Link>
             <Nav.Link className='text-white' href="#link">Careers</Nav.Link>
             <Nav.Link className='text-white' href="#link">About Us</Nav.Link> 
             <Nav.Link className='text-white' href="#link">Contact Us</Nav.Link>

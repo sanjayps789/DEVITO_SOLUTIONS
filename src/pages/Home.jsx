@@ -131,7 +131,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="row d-flex align-items-center justify-content-center flex-column pb-5 pt-4">
+                    <div className="row d-flex align-items-center justify-content-center flex-column pt-4">
                             <h2 className='text-center text-black fw-bold pt-4 pb-3'>Let us know what your want!</h2>
                            <div className='text-center pb-lg-0 pb-5'> <button style={{ backgroundColor: '#76A6E6', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }} className='btn text-white fw-bolder px-5 py-2 rounded-pill'>Contact us!</button></div>
                         </div>

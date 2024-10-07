@@ -8,7 +8,7 @@ function Header() {
     <Navbar style={{backgroundColor:'#76A6E6'}} expand="lg" className="w-100 py-4">
       <Container>
         <Navbar.Brand href="#home">
-          <img  src={logo} className='img-fluid w-100' alt="devito.logo" />
+          <img style={{height:'41px'}}  src={logo} className='img-fluid w-100' alt="devito.logo" />
         </Navbar.Brand>  
         <button onClick={() => setShow(!show)}  className='btn fs-2 d-block d-lg-none'><i className="fa-solid fa-bars text-white"></i></button>
 

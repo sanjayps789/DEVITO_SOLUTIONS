@@ -1,0 +1,32 @@
+.footer {
+    background-color: #76A6E6; /* Your chosen primary color */
+  }
+  
+  .footer a {
+    color: #d3d3d3; /* Light gray for links */
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #ffffff; /* White on hover for better contrast */
+    text-decoration: underline;
+  }
+  
+  .social-icon {
+    color: #d3d3d3;
+    transition: color 0.3s;
+  }
+  
+  .social-icon:hover {
+    color: #ffffff;
+  }
+  
+  .footer-link {
+    color: #d3d3d3;
+    transition: color 0.3s;
+  }
+  
+  .footer-link:hover {
+    color: #ffffff;
+  }
+  
